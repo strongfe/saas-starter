@@ -27,6 +27,9 @@ yarn-error.log*
 
 # local env files
 .env
+.env.local
+.env.example
+.env*.local
 
 # vercel
 .vercel
@@ -39,3 +42,4 @@ next-env.d.ts
 # Docker
 postgres_data/
 .env*.local
+docker-compose.override.yml
